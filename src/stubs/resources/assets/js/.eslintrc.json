@@ -3,9 +3,7 @@
 		"eslint:recommended",
 		"plugin:vue/recommended"
 	],
-	"plugins": [
-		"vue"
-	],
+	"plugins": ["vue"],
 	"env": {
 		"browser": true,
 		"es6": true
@@ -50,9 +48,9 @@
 		"space-infix-ops": "error",
 		"space-unary-ops": "error",
 		"spaced-comment": "error",
-			"vue/html-closing-bracket-newline": ["error", {
-				"multiline": "always"
-			}],
+		"vue/html-closing-bracket-newline": ["error", {
+			"multiline": "always"
+		}],
 		"vue/html-indent": ["error", "tab", {
 			"attribute": 1,
 			"closeBracket": 0,
