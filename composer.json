@@ -1,0 +1,26 @@
+{
+	"name": "danktuary/sanctuary-preset",
+	"description": "Laravel preset.",
+	"keywords": ["laravel", "preset", "sanctuary"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sanctuary",
+			"email": "sanc.pw@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Sanctuary\\SanctuaryPreset\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Sanctuary\\SanctuaryPreset\\SanctuaryServiceProvider"
+			]
+		}
+	}
+}
