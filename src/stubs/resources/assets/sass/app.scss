@@ -1,0 +1,40 @@
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+
+img {
+	max-width: 100%;
+}
+
+[v-cloak] {
+	display: none;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-spaced {
+	letter-spacing: 1px;
+}
+
+@for $i from 1 through 5 {
+	.text-spaced-#{$i} {
+		letter-spacing: #{$i}px;
+	}
+}
+
+.line-height {
+	line-height: 150%;
+}
+
+@for $i from 0 through 4 {
+  .line-height-#{$i + 1} {
+		line-height: 150% + ($i * 10);
+	}
+}
